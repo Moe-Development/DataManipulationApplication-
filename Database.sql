@@ -1,14 +1,14 @@
-use [master];  -- Stop using the COMP10204_LAB5 database (just in case this is a re-create)
+use [master];  -- Stop using the DATABASEMANIPULATION database (just in case this is a re-create)
 
-DROP DATABASE IF EXISTS COMP10204_LAB5 
+DROP DATABASE IF EXISTS DATABASEMANIPULATION
 
 USE [master]
 GO
-/****** Object:  Database [COMP10204_LAB5]    Script Date: 11/15/2019 9:43:44 AM ******/
-CREATE DATABASE [COMP10204_LAB5]
+/****** Object:  Database [DATABASEMANIPULATION]   ******/
+CREATE DATABASE [DATABASEMANIPULATION]
 GO
 
-use [COMP10204_LAB5]
+use [DATABASEMANIPULATION]
 GO
 
 CREATE TABLE [COMPANION](
