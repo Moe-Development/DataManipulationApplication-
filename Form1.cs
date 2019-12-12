@@ -21,7 +21,7 @@ namespace Lab5b
         //setting the Database connection
         public SqlConnection Connection { get; }
         SqlCommand command;
-        string connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=COMP10204_Lab5;Integrated Security=True";
+        string connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=DATABASEMANIPULATION;Integrated Security=True";
 
         // setting the main lisets
         List<Doctor> doctors;
